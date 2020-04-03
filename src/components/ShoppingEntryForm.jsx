@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 
-class FunctionalComponent extends Component {
+class ShoppingEntryForm extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   // functions go here
+
+  //
+  handleInputChange = () => {};
+
+  //
+  handleFormSubmit = () => {};
 
   //
   render() {
@@ -35,4 +41,4 @@ class FunctionalComponent extends Component {
   }
 }
 
-export default FunctionalComponent;
+export default ShoppingEntryForm;

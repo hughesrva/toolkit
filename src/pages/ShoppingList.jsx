@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import ShoppingEntryForm from "../components/ShoppingEntryForm";
 
-class ShoppingListPage extends Component {
+class ShoppingList extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -14,10 +15,12 @@ class ShoppingListPage extends Component {
 
     return (
       <div>
-        <div className="section"></div>
+        <div className="section">
+          <ShoppingEntryForm></ShoppingEntryForm>
+        </div>
       </div>
     );
   }
 }
 
-export default ShoppingListPage;
+export default ShoppingList;

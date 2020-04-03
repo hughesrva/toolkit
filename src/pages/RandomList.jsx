@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class RandomListPage extends Component {
+class RandomList extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -20,4 +20,4 @@ class RandomListPage extends Component {
   }
 }
 
-export default RandomListPage;
+export default RandomList;
